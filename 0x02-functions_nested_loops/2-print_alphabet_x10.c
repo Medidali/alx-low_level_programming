@@ -7,7 +7,8 @@
 void print_alphabet_x10(void)
 {
 char letr;
-int i = x;
+int i;
+i = 0;
 while (i < 10)
 {
 for (letr = 'a'; letr <= 'z'; letr++)
