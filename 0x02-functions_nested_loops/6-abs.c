@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
   * _abs - Computes the absolute value of an integer.
-  * @c: The number to be computed.
+  * @n: The number to be computed.
   *
   * Return: Absolute value of number or zero
   */
