@@ -7,7 +7,7 @@
   */
 int main(void)
 {
-char contener[] = "_putchar";
+  char contener[] = "_putchar"; //main - Entry point
 int i;
 
 for (i = 0; contener[i] != '\0'; i++)
