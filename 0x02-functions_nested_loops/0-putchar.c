@@ -1,11 +1,10 @@
-#include < stdio.h >
 #include " main.h "
 
 /*
- *fonction main
- *the main function allows us to display
- *the _putchar character
-*/
+  * main - Entry point
+  *
+  * Return: Always 0
+  */
 
 int main(void)
 {
