@@ -11,7 +11,7 @@ void print_rev(char *s)
 {
 int l = _strlen(s);
 char str[];
-strcpy(str, *s)
+strcpy(str, s)
 int i = l - 1;
 while (i >= 0)
 {
