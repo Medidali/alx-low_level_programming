@@ -4,7 +4,7 @@
  *_strlen - function that return the length of a string
  *@s: parametre of function  _strlen
  *
- *@return The length of the string (excluding the null terminator)
+ *Return: The length of the string (excluding the null terminator)
 */
 
 
