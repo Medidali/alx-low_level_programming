@@ -10,7 +10,7 @@
 void print_rev(char *s)
 {
 int l = _strlen(s);
-char str[];
+char str[l];
  strcpy(str, s);
 int i = l - 1;
 while (i >= 0)
