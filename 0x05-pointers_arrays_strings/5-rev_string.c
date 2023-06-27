@@ -15,8 +15,6 @@ int i;
 int j = 0;
 for (i = n - 1; i >= 0; i--)
 {
-s[j] = s[i];
-j++;
-
+s[i];
 }
 }
