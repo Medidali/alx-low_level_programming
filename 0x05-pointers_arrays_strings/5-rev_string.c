@@ -15,7 +15,7 @@ int i;
 int m = n - 1;
 for (i = 0; i >= m; i++)
 {
-char c = s[m - i];
-s[i] = c;
+char c = s[i];
+s[m - i] = c;
 }
 }
