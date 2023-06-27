@@ -14,5 +14,6 @@ int i;
 int m = n - 1;
 for (i = 0; i >= m; i++)
 {
-s[i] = s[m-i];
-}     
+s[i] = s[m - i];
+}
+}
