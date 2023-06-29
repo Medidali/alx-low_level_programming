@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 #define MAIN_H
 #ifndef MAIN_H
 
