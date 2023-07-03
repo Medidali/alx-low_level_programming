@@ -10,13 +10,23 @@
  * Return: the number of bytes
  */
 
-int prefixLength(char* str, const char* prefix)
+unsigned int _strspn(char *s, char *accept)
 {
-int length = 0;
+	int z = 0, x, y;
 
-while (str[length] != '\0' && prefix[length] != '\0' && str[length] == prefix[length])
-length++;
-}
+	for (x = 0; s[x] != '\0'; x++)
+	{
+		if (s[x] != 32)
+		{
+			for (y = 0; accept[y] != '\0'; y++)
+			{
+				if (s[x] == accept[y])
+					z++;
+			}
+		}
+		else
+			return (z);
+	}
+		return (z);
 
-return length;
 }
