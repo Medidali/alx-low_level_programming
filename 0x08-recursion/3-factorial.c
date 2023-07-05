@@ -1,19 +1,25 @@
 #include "main.h"
 /**
- *factorial - calcule and return the factorial of number @n
- *@n:the parametre of function
- *
- *Return: return factorial of @n
+ * factorial - factorial of int
+ * @n:int
+ * Return:int
  */
 int factorial(int n)
 {
-if (n == 0)
-{
-return (1);
-}
-else
-{
-return (n * factorial(n - 1));
-}
-}
+	int x;
 
+	if (n == 0)
+	{
+		return (1);
+	}
+	else if (n < 0)
+	{
+		return (-1);
+	}
+	else
+	{
+		x = n * factorial(n - 1);
+	}
+			return (x);
+
+}
