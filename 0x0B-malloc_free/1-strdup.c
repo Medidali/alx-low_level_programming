@@ -14,14 +14,16 @@ if (str == NULL)
 {
 return (NULL);
 }
-size_t len = strlen(str);
+int len = strlen(str);
 s = (char *)malloc((len * sizeof(char)) + 1);
 if (s == NULL)
 {
 return (NULL);
 }
 for (i = 0; i < len; i++)
+{
 s[i] = str[i];
+}
 s[len] = '\0';
 return (s);
 }
