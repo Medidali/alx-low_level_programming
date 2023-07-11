@@ -15,6 +15,14 @@ if ((s1 == NULL) && (s2 == NULL))
 {
 return (NULL);
 }
+if ((s1 != NULL) && (s2 == NULL))
+{
+return (s1);
+}
+if ((s1 == NULL) && (s2 != NULL))
+{
+return (s2);
+}
 len1 = strlen(s1);
 len2 = strlen(s2);
 concat = (char *)(sizeof(char) * (len1 + len2 + 1));
