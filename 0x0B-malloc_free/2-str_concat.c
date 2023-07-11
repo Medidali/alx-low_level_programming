@@ -14,11 +14,12 @@ int len1, len2;
 
 len1 = strlen(s1);
 len2 = strlen(s2);
-concat = (char *)((sizeof(char) * (len1 + len2 + 1));
+concat = (char *)(sizeof(char) * (len1 + len2 + 1));
 if (concat == NULL)
 {
 return (NULL);
 }
 concat = strcat(s1, s2);
 return (concat);
+
 }
