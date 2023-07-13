@@ -17,7 +17,8 @@ char *s;
 unsigned int i;
 unsigned int len1;
 unsigned int len2;
-if ((s1 == NULL) && (s2 == NULL))
+
+if ((s1 == NULL) || (s2 == NULL))
 {
 return (NULL);
 }
