@@ -43,7 +43,7 @@ s[len1 + n] = '\0';
 else
 {
 strcpy(s, s2);
+s[len1 + len2] = '\0';
 }
-
 return (s);
 }
