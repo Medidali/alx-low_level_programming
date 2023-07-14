@@ -21,9 +21,9 @@ if (a == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < nmemb; i++)
+for (i = 0; i < (nmemb * size); i++)
 {
-*(a + i) = 0;
+a[i] = 0;
 }
 return (a);
 }
