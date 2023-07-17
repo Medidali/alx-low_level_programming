@@ -1,13 +1,17 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef DOG
+#define DOG
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *dog - structure that contain dog information
- *@name: dog name
- *@age: dog age
- *@owner: dog owner
+ * struct dog - dog class
+ *
+ * @name: Name of the dog
+ *
+ * @age: Age of the dog
+ *
+ * @owner: Owner of the dog
  */
+
 struct dog
 {
 char *name;
