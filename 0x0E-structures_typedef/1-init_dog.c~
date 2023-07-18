@@ -1,0 +1,13 @@
+#include "dog.h"
+
+
+
+
+void init_dog(struct dog *d, char *name, float age, char *owner)
+{
+struct dog my_dog;
+d.name = "kaka";
+d.age = 2.5;
+d.owner = "adam";
+return ();
+}
