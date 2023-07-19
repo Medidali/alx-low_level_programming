@@ -17,6 +17,8 @@ if (size <= 0)
 {
 return (0);
 }
+if (array != NULL && cmp != NULL)
+{
 while (reslt == 0)
 {
 i++;
@@ -27,6 +29,7 @@ exit(-1);
 else
 {
 reslt = cmp(array[i]);
+}
 }
 }
 return (i);
