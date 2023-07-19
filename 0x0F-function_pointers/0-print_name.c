@@ -8,10 +8,5 @@
  */
 void print_name(char *name, void (*f)(char *))
 {
-char *name1 = f(name);
-
-while (*name1 != '\0')
-{
-putchar(*name1);
-name1++;
+f(name);
 }
