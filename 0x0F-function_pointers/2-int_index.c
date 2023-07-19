@@ -15,7 +15,7 @@ int i = 0;
 int reslt = cmp(array[i]);
 if (size <= 0)
 {
-return (0);
+return (-1);
 }
 if (array != NULL && cmp != NULL)
 {
@@ -31,7 +31,7 @@ else
 reslt = cmp(array[i]);
 }
 }
-return (-1);
+
 }
 return (-1);
 }
