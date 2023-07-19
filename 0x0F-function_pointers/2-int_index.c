@@ -31,6 +31,7 @@ else
 reslt = cmp(array[i]);
 }
 }
+return (-1);
 }
-return (i);
+return (-1);
 }
