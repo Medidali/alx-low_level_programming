@@ -12,26 +12,20 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 int i = 0;
-int reslt = cmp(array[i]);
-if (size <= 0)
-{
-return (-1);
-}
-if (array != NULL && cmp != NULL)
-{
-while (reslt == 0)
-{
-i++;
-if (i == size)
-{
-exit(-1);
-}
-else
-{
-reslt = cmp(array[i]);
-}
-}
 
-}
-return (-1);
+	if (size > 0)
+	{
+		if (array != NULL && cmp != NULL)
+		{
+			while (i < size)
+			{
+				if (cmp(array[i]))
+					return (i);
+
+				i++;
+			}
+		}
+	}
+
+	return (-1);
 }
