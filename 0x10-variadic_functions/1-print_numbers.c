@@ -13,15 +13,14 @@ unsigned int i;
 int val;
 va_list num;
 va_start(num, n);
+if (separator == NULL)
+separator = "";
 for (i = 0; i < n; i++)
 {
 val = va_arg(num, const unsigned int);
 printf("%d", val);
-if (separator != NULL)
-{
-printf("%c", *separator);
-}
-printf(" ");
+if (i < n - 1)
+printf("%s", separator);
 }
 printf("\n");
 va_end(num);
