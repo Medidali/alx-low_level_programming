@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- *list_len - function that returns the number of elements of a list_t list.
+ *listint_len - function that returns the number of elements of a list_t list.
  *@h: pointer to a list_t
  *
  *Return: return size_t.
