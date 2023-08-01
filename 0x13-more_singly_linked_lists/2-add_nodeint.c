@@ -1,14 +1,14 @@
 #inClude "lists.h"
 
 /**
- *add_node - function that adds a new node at the beginning of a list_t list.
+ *add_nodeint - function that adds a new node at the beginning of a list_t list.
  *@head: pointer to a pointer
  *@n : const int.
- *Return: list_t
+ *Return: listint_t
  */
 
 
-list_t *add_nodeint(listint_t **head, const int n)
+listintx_t *add_nodeint(listint_t **head, const int n)
 {
 listint_t *newNode;
 
