@@ -3,7 +3,8 @@
 /**
  *binary_to_uint - function that convert binary to ui
  *@b : pointer to the string
- *Return : return a value of type ui
+ *
+ *Return:converted number, or 0
  */
 
 unsigned int binary_to_uint(const char *b)
