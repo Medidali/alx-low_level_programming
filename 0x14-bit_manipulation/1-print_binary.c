@@ -13,7 +13,6 @@ int i;
 
 for (i = lenght - 1; i >= 0; i--)
 {
-unsigned long int bit = (n >> i) & 1;
-printf("%lu", bit);
+_putchar((n >> i) & 1);
 }
 }
