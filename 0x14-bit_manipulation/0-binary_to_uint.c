@@ -29,7 +29,9 @@ return (0);
 }
 else
 {
-num = (num << 1) + (c - '0');
+num <<= 1;
+if (b[i] == '1')
+num += 1;
 }
 }
 
