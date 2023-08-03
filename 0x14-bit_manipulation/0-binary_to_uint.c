@@ -24,15 +24,16 @@ for (i = 0; i < len; i++)
 
 c = b[i];
 if (c != '0' && c != '1')
-{
+
 return (0);
 }
-else
+for (i = 0; i < len; i++)
 {
 num <<= 1;
+
 if (b[i] == '1')
 num += 1;
-}
+
 }
 
 return (num);
