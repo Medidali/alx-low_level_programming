@@ -26,14 +26,14 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 			return (NULL);
 	}
 	new_nod = malloc(sizeof(dlistint_t));
-	if (new == NULL)
+	if (new_nod == NULL)
 		return (NULL);
 	new_nod->n = n;
 	if (idx == 0)
 	{
 		next_nod = *h;
 		*h = new_nod;
-		new_nod->preBOBv = NULL;
+		new_nod->prev = NULL;
 	}
 	else
 	{
