@@ -9,11 +9,11 @@
  **/
 skiplist_t *linear_skip(skiplist_t *list, int value)
 {
-  if (!list)
-    return (list);
+if (!list)
+return (list);
 
-  /* It's not what you expected, I still have to do this task */
-  value = value;
+/* It's not what you expected, I still have to do this task */
+value = value;
 
-  return (list);
+return (list);
 }

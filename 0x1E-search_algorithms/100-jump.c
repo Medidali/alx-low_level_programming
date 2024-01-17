@@ -11,10 +11,10 @@
  **/
 int jump_search(int *array, size_t size, int value)
 {
-  if (!array)
-    return (-1);
+if (!array)
+return (-1);
 
-  /* It's not what you expected, I still have to do this task */
+/* It's not what you expected, I still have to do this task */
 
-  return (-1);
+return (-1);
 }

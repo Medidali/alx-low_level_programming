@@ -11,12 +11,12 @@
  **/
 listint_t *jump_list(listint_t *list, size_t size, int value)
 {
-  if (!list)
-    return (list);
+if (!list)
+return (list);
 
-  /* It's not what you expected, I still have to do this task */
-  size = size;
-  value = value;
+/* It's not what you expected, I still have to do this task */
+size = size;
+value = value;
 
-  return (list);
+return (list);
 }
